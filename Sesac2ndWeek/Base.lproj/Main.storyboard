@@ -12,7 +12,7 @@
         <!--Emotion Diary View Cntroller-->
         <scene sceneID="zYa-aa-GwG">
             <objects>
-                <viewController id="a1n-Fr-YkV" customClass="EmotionDiaryViewCntroller" sceneMemberID="viewController">
+                <viewController id="a1n-Fr-YkV" customClass="EmotionDiaryViewCntroller" customModule="Sesac2ndWeek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B5i-Ax-gls">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,6 +62,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="pOV-88-Fz8"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -90,6 +93,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="kmp-md-ctc"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -118,6 +124,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="zpA-ra-BAT"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -155,6 +164,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="eA7-ER-Pry"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -183,6 +195,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="g2c-u7-Mg2"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -211,6 +226,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="8sY-HA-mcg"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -248,6 +266,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="XWA-9X-oF0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -272,18 +293,18 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="98"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weZ-SA-dDo">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSk-aL-ajv">
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="weZ-SA-dDo" firstAttribute="top" secondItem="Vay-aI-9l4" secondAttribute="top" id="Aup-EO-2Cg"/>
-                                                    <constraint firstAttribute="bottom" secondItem="weZ-SA-dDo" secondAttribute="bottom" id="Eh1-Mq-BxB"/>
-                                                    <constraint firstAttribute="trailing" secondItem="weZ-SA-dDo" secondAttribute="trailing" id="Knr-8x-VCv"/>
-                                                    <constraint firstItem="weZ-SA-dDo" firstAttribute="leading" secondItem="Vay-aI-9l4" secondAttribute="leading" id="gbe-U7-XFk"/>
+                                                    <constraint firstAttribute="bottom" secondItem="aSk-aL-ajv" secondAttribute="bottom" id="CQq-c0-bZz"/>
+                                                    <constraint firstItem="aSk-aL-ajv" firstAttribute="leading" secondItem="Vay-aI-9l4" secondAttribute="leading" id="jRA-Yo-NmW"/>
                                                     <constraint firstAttribute="width" secondItem="Vay-aI-9l4" secondAttribute="height" multiplier="101:127" id="kFL-75-z1V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="aSk-aL-ajv" secondAttribute="trailing" id="w7A-ss-3dX"/>
+                                                    <constraint firstItem="aSk-aL-ajv" firstAttribute="top" secondItem="Vay-aI-9l4" secondAttribute="top" id="xMI-xF-Act"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3j-ER-Ovv">
@@ -304,6 +325,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="BbN-0a-FzN"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -336,6 +360,26 @@
                             <constraint firstItem="H4p-QX-l6a" firstAttribute="top" secondItem="2Ia-Cx-Kdq" secondAttribute="top" constant="23" id="kic-Xg-823"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eighthButton" destination="aSk-aL-ajv" id="BQK-b4-LTm"/>
+                        <outlet property="eighthLabel" destination="Lns-5S-Vos" id="yqu-VK-klS"/>
+                        <outlet property="fifthButton" destination="f8N-Ch-lOF" id="UZr-xp-hIA"/>
+                        <outlet property="fifthLabel" destination="Jx9-4g-GLs" id="3dA-Jz-gIx"/>
+                        <outlet property="firstButton" destination="PaZ-yR-YAx" id="Y6b-JG-Dlh"/>
+                        <outlet property="firstLabel" destination="b6Q-j2-bEb" id="lO2-AX-RF1"/>
+                        <outlet property="fourthButton" destination="qI4-Kz-kMa" id="Xmd-2y-BVI"/>
+                        <outlet property="fourthLabel" destination="TlU-ZG-rc3" id="0zl-bP-cO1"/>
+                        <outlet property="ninethButton" destination="De8-cy-lmq" id="1fP-Op-WCe"/>
+                        <outlet property="ninethLabel" destination="cnk-vB-0IY" id="sHf-Uy-abE"/>
+                        <outlet property="secondButton" destination="XEI-1q-cBK" id="4Xx-vo-VDn"/>
+                        <outlet property="secondLabel" destination="PYj-Ex-JTx" id="JSL-Ag-bom"/>
+                        <outlet property="seventhButton" destination="CZh-Eg-fMy" id="dVm-1S-7K0"/>
+                        <outlet property="seventhLabel" destination="mH9-n8-y28" id="MLU-Dq-R5p"/>
+                        <outlet property="sixthButton" destination="vYC-YI-QVn" id="bvX-pj-dhf"/>
+                        <outlet property="sixthLabel" destination="B31-GF-iTu" id="wfk-7N-jJs"/>
+                        <outlet property="thirdButton" destination="hES-ph-09E" id="E8N-Fg-Vnh"/>
+                        <outlet property="thirdLabel" destination="U7E-bP-K9I" id="5pO-5l-FqM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lvm-uQ-nKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
