@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="man-oJ-5bw">
-                                <rect key="frame" x="31" y="63.5" width="30" height="30"/>
+                                <rect key="frame" x="30" y="63.5" width="37.5" height="37.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="man-oJ-5bw" secondAttribute="height" multiplier="1:1" id="ARt-6l-jV1"/>
                                 </constraints>
@@ -58,7 +58,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="98"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaZ-yR-YAx">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaZ-yR-YAx">
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
@@ -297,6 +297,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="101" height="127"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                        <connections>
+                                                            <action selector="didButtonTapped:" destination="a1n-Fr-YkV" eventType="touchUpInside" id="6Lo-zy-rvd"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -350,10 +353,10 @@
                         <viewLayoutGuide key="safeArea" id="2Ia-Cx-Kdq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="man-oJ-5bw" firstAttribute="leading" secondItem="2Ia-Cx-Kdq" secondAttribute="leading" constant="31" id="6mh-Wp-LKa"/>
+                            <constraint firstItem="man-oJ-5bw" firstAttribute="leading" secondItem="2Ia-Cx-Kdq" secondAttribute="leading" constant="30" id="6mh-Wp-LKa"/>
                             <constraint firstItem="H4p-QX-l6a" firstAttribute="centerX" secondItem="2Ia-Cx-Kdq" secondAttribute="centerX" id="Fed-33-RcU"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="width" secondItem="B5i-Ax-gls" secondAttribute="width" multiplier="0.775362" id="LDN-cN-PZx"/>
-                            <constraint firstItem="man-oJ-5bw" firstAttribute="width" secondItem="B5i-Ax-gls" secondAttribute="width" multiplier="0.0724638" id="TBY-cT-hM7"/>
+                            <constraint firstItem="man-oJ-5bw" firstAttribute="width" secondItem="B5i-Ax-gls" secondAttribute="width" multiplier="0.09" id="TBY-cT-hM7"/>
                             <constraint firstItem="man-oJ-5bw" firstAttribute="top" secondItem="2Ia-Cx-Kdq" secondAttribute="top" constant="19.5" id="UcK-He-ZKB"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="centerY" secondItem="2Ia-Cx-Kdq" secondAttribute="centerY" id="Wry-fY-74w"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="centerX" secondItem="2Ia-Cx-Kdq" secondAttribute="centerX" id="Y2o-VP-UeF"/>
@@ -361,7 +364,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="eighthButton" destination="aSk-aL-ajv" id="BQK-b4-LTm"/>
+                        <outlet property="eighthButton" destination="aSk-aL-ajv" id="2jD-Kb-dRj"/>
                         <outlet property="eighthLabel" destination="Lns-5S-Vos" id="yqu-VK-klS"/>
                         <outlet property="fifthButton" destination="f8N-Ch-lOF" id="UZr-xp-hIA"/>
                         <outlet property="fifthLabel" destination="Jx9-4g-GLs" id="3dA-Jz-gIx"/>
@@ -369,6 +372,7 @@
                         <outlet property="firstLabel" destination="b6Q-j2-bEb" id="lO2-AX-RF1"/>
                         <outlet property="fourthButton" destination="qI4-Kz-kMa" id="Xmd-2y-BVI"/>
                         <outlet property="fourthLabel" destination="TlU-ZG-rc3" id="0zl-bP-cO1"/>
+                        <outlet property="listButton" destination="man-oJ-5bw" id="j1P-zV-6RB"/>
                         <outlet property="ninethButton" destination="De8-cy-lmq" id="1fP-Op-WCe"/>
                         <outlet property="ninethLabel" destination="cnk-vB-0IY" id="sHf-Uy-abE"/>
                         <outlet property="secondButton" destination="XEI-1q-cBK" id="4Xx-vo-VDn"/>

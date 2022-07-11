@@ -39,6 +39,9 @@ class EmotionDiaryViewCntroller: UIViewController {
     @IBOutlet weak var ninethLabel: UILabel!
     
     
+    @IBOutlet weak var listButton: UIButton!
+    
+    
     var labelArray: [UILabel] {
         [ firstLabel, secondLabel, thirdLabel,
         fourthLabel, fifthLabel, sixthLabel,
@@ -48,7 +51,8 @@ class EmotionDiaryViewCntroller: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setLabel()
+        listButton.setTitle("", for: .normal)
     }
     
     // MARK: - Actions
