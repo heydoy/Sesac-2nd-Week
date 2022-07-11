@@ -22,14 +22,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="man-oJ-5bw">
-                                <rect key="frame" x="30" y="63.5" width="37.5" height="37.5"/>
+                                <rect key="frame" x="30" y="64" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="man-oJ-5bw" secondAttribute="height" multiplier="1:1" id="ARt-6l-jV1"/>
+                                    <constraint firstAttribute="width" constant="48" id="vnI-yB-xVT"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="list.triangle" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="19"/>
+                                <buttonConfiguration key="configuration" style="plain" image="list.triangle" catalog="system" title=" ">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="16"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="감정 다이어리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4p-QX-l6a">
@@ -356,8 +357,7 @@
                             <constraint firstItem="man-oJ-5bw" firstAttribute="leading" secondItem="2Ia-Cx-Kdq" secondAttribute="leading" constant="30" id="6mh-Wp-LKa"/>
                             <constraint firstItem="H4p-QX-l6a" firstAttribute="centerX" secondItem="2Ia-Cx-Kdq" secondAttribute="centerX" id="Fed-33-RcU"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="width" secondItem="B5i-Ax-gls" secondAttribute="width" multiplier="0.775362" id="LDN-cN-PZx"/>
-                            <constraint firstItem="man-oJ-5bw" firstAttribute="width" secondItem="B5i-Ax-gls" secondAttribute="width" multiplier="0.09" id="TBY-cT-hM7"/>
-                            <constraint firstItem="man-oJ-5bw" firstAttribute="top" secondItem="2Ia-Cx-Kdq" secondAttribute="top" constant="19.5" id="UcK-He-ZKB"/>
+                            <constraint firstItem="man-oJ-5bw" firstAttribute="top" secondItem="2Ia-Cx-Kdq" secondAttribute="top" constant="20" id="UcK-He-ZKB"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="centerY" secondItem="2Ia-Cx-Kdq" secondAttribute="centerY" id="Wry-fY-74w"/>
                             <constraint firstItem="wz4-X6-l9f" firstAttribute="centerX" secondItem="2Ia-Cx-Kdq" secondAttribute="centerX" id="Y2o-VP-UeF"/>
                             <constraint firstItem="H4p-QX-l6a" firstAttribute="top" secondItem="2Ia-Cx-Kdq" secondAttribute="top" constant="23" id="kic-Xg-823"/>
