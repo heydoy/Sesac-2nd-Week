@@ -93,7 +93,27 @@ class EmotionDiaryViewCntroller: UIViewController {
     }
     
     func showAlertController() {
+        // 1. 흰 바탕 : UIAlertController
+        let alert = UIAlertController(title: "타이틀", message: "메시지입니다.", preferredStyle: .alert)
+        
+        // 2. 버튼 만들기 : UIAlertAction
+        // 핸들러는 기능을 연결하는 역할. Closure
+        let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
+        let cancel = UIAlertAction(title: "취소", style: .destructive, handler: nil)
+        let web = UIAlertAction(title: "복사", style: .default, handler: nil)
+        
+        // 3. 바탕에 버튼 붙이기
+        // 버튼은 추가한 순서대로 붙는다.
+        alert.addAction(ok)
+        alert.addAction(web)
+        alert.addAction(cancel)
+        
+        // 4. 화면에 띄우기
+        present(alert, animated: true, completion: nil)
+        
         
     }
+    
+
 
 }
