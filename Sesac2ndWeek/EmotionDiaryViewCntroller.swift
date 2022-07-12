@@ -6,7 +6,9 @@
 //
 
 import UIKit
-
+enum Emotion {
+    
+}
 class EmotionDiaryViewCntroller: UIViewController {
     // MARK: - Properties
     
@@ -24,7 +26,6 @@ class EmotionDiaryViewCntroller: UIViewController {
     @IBOutlet weak var sixthButton: UIButton!
     @IBOutlet weak var seventhButton: UIButton!
     @IBOutlet weak var ninethButton: UIButton!
-    
     @IBOutlet weak var eighthButton: UIButton!
     
     @IBOutlet weak var firstLabel: UILabel!
@@ -94,7 +95,7 @@ class EmotionDiaryViewCntroller: UIViewController {
         for (index, item) in labelArray.enumerated() {
             item.text = "\(textArray[index]) \(tapCountArray[index])"
         }
-       let literal = #imageLiteral(resourceName: "sesac_slime9")
+       //let literal = #imageLiteral(resourceName: "sesac_slime9")
     }
     
     // 함수 반환값 테스트

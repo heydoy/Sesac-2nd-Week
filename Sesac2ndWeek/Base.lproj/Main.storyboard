@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Lk-4l-TFQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sws-W2-T3L">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -389,10 +389,10 @@
             </objects>
             <point key="canvasLocation" x="1981.1594202898552" y="176.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--New Emotion Diary View Controller-->
         <scene sceneID="QG7-Qr-PFZ">
             <objects>
-                <viewController id="Sws-W2-T3L" sceneMemberID="viewController">
+                <viewController id="Sws-W2-T3L" customClass="NewEmotionDiaryViewController" customModule="Sesac2ndWeek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iJ3-xc-dph">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -407,6 +407,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="U4t-Nk-tZb"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fu-5Z-XnU">
                                         <rect key="frame" x="0.0" y="114.5" width="103.5" height="20.5"/>
@@ -421,6 +424,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="xO0-oO-Ex6"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSM-nD-yVM">
                                         <rect key="frame" x="0.0" y="260.5" width="103.5" height="20.5"/>
@@ -435,6 +441,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="rx9-7B-6VJ"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cI1-ew-M7e">
                                         <rect key="frame" x="0.0" y="405.5" width="103.5" height="20.5"/>
@@ -454,6 +463,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="kiD-Et-TJC"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTz-ix-AAF">
                                         <rect key="frame" x="0.0" y="114.5" width="103.5" height="20.5"/>
@@ -468,6 +480,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="2xC-Gj-qd2"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jro-de-XZV">
                                         <rect key="frame" x="0.0" y="260.5" width="103.5" height="20.5"/>
@@ -482,6 +497,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="BJR-qU-nMn"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tky-8H-gum">
                                         <rect key="frame" x="0.0" y="405.5" width="103.5" height="20.5"/>
@@ -501,6 +519,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="eV6-cC-wfo"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8w-qe-dSu">
                                         <rect key="frame" x="0.0" y="114.5" width="103.5" height="20.5"/>
@@ -515,6 +536,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="KYI-Bf-cDA"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAn-s4-t6h">
                                         <rect key="frame" x="0.0" y="260.5" width="103.5" height="20.5"/>
@@ -529,6 +553,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="didButtonTapped:" destination="Sws-W2-T3L" eventType="touchUpInside" id="wRL-2s-7pY"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxj-op-Bf8">
                                         <rect key="frame" x="0.0" y="405.5" width="103.5" height="20.5"/>
@@ -538,23 +565,65 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="감정 다이어리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L21-nS-Sju">
+                                <rect key="frame" x="155.5" y="78" width="103.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQN-Pj-4AZ">
+                                <rect key="frame" x="36" y="65.5" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SQN-Pj-4AZ" secondAttribute="height" multiplier="1:1" id="TJe-Wg-3JQ"/>
+                                    <constraint firstAttribute="width" constant="48" id="jjK-zZ-RdX"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="list.triangle" catalog="system" title=" ">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="16"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rl3-PT-RFj"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="TuM-jt-XzX" firstAttribute="width" secondItem="xqH-3Z-xNk" secondAttribute="width" id="BH0-u8-meR"/>
                             <constraint firstItem="xqH-3Z-xNk" firstAttribute="centerY" secondItem="iJ3-xc-dph" secondAttribute="centerY" id="GBe-wx-gjU"/>
+                            <constraint firstItem="SQN-Pj-4AZ" firstAttribute="leading" secondItem="rl3-PT-RFj" secondAttribute="leading" constant="36" id="QjB-RB-DBA"/>
                             <constraint firstItem="IlT-8k-ezU" firstAttribute="leading" secondItem="xqH-3Z-xNk" secondAttribute="trailing" constant="16" id="SZX-WO-HNC"/>
                             <constraint firstItem="IlT-8k-ezU" firstAttribute="height" secondItem="xqH-3Z-xNk" secondAttribute="height" id="XMu-qf-Hyo"/>
                             <constraint firstItem="xqH-3Z-xNk" firstAttribute="leading" secondItem="TuM-jt-XzX" secondAttribute="trailing" constant="16" id="YXl-Py-dK7"/>
                             <constraint firstItem="TuM-jt-XzX" firstAttribute="height" secondItem="xqH-3Z-xNk" secondAttribute="height" id="axc-iX-heW"/>
                             <constraint firstItem="xqH-3Z-xNk" firstAttribute="width" secondItem="iJ3-xc-dph" secondAttribute="width" multiplier="0.25" id="bpu-nr-pdg"/>
                             <constraint firstItem="IlT-8k-ezU" firstAttribute="width" secondItem="xqH-3Z-xNk" secondAttribute="width" id="fN6-iE-Jm2"/>
+                            <constraint firstItem="SQN-Pj-4AZ" firstAttribute="centerY" secondItem="L21-nS-Sju" secondAttribute="centerY" id="fXr-zi-nwA"/>
                             <constraint firstItem="xqH-3Z-xNk" firstAttribute="centerX" secondItem="iJ3-xc-dph" secondAttribute="centerX" id="fZH-qy-1Uq"/>
                             <constraint firstItem="TuM-jt-XzX" firstAttribute="centerY" secondItem="xqH-3Z-xNk" secondAttribute="centerY" id="kAS-1U-zVA"/>
+                            <constraint firstItem="L21-nS-Sju" firstAttribute="top" secondItem="rl3-PT-RFj" secondAttribute="top" constant="34" id="n80-fj-dcK"/>
                             <constraint firstItem="IlT-8k-ezU" firstAttribute="centerY" secondItem="xqH-3Z-xNk" secondAttribute="centerY" id="pEs-s9-SyA"/>
+                            <constraint firstItem="L21-nS-Sju" firstAttribute="centerX" secondItem="rl3-PT-RFj" secondAttribute="centerX" id="usa-UB-WKW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eighthButton" destination="BXh-PX-FMI" id="gyy-dT-ewZ"/>
+                        <outlet property="eighthLabel" destination="kAn-s4-t6h" id="jxu-cT-65A"/>
+                        <outlet property="fifthButton" destination="czH-Fk-KU5" id="AIi-BO-qcn"/>
+                        <outlet property="fifthLabel" destination="jro-de-XZV" id="TYV-JB-DaB"/>
+                        <outlet property="firstButton" destination="4B6-I6-waL" id="sC2-Aj-GBr"/>
+                        <outlet property="firstLabel" destination="3Fu-5Z-XnU" id="tMh-CM-oSf"/>
+                        <outlet property="fourthButton" destination="ga2-Ed-Mn5" id="DlE-jd-QX8"/>
+                        <outlet property="fourthLabel" destination="yTz-ix-AAF" id="RdT-jt-8T5"/>
+                        <outlet property="ninethLabel" destination="uxj-op-Bf8" id="6Ly-X1-liZ"/>
+                        <outlet property="ninethbutton" destination="Crb-Dg-YRG" id="e3I-SE-if7"/>
+                        <outlet property="secondButton" destination="mRy-GG-B0a" id="bfD-Sy-Bw1"/>
+                        <outlet property="secondLabel" destination="HSM-nD-yVM" id="eJi-Iz-pfI"/>
+                        <outlet property="seventhButton" destination="twk-SR-wOM" id="4Ji-q8-1po"/>
+                        <outlet property="seventhLabel" destination="I8w-qe-dSu" id="fad-r1-nW3"/>
+                        <outlet property="sixthButton" destination="3hH-oN-eQk" id="l69-L1-Onp"/>
+                        <outlet property="sixthLabel" destination="tky-8H-gum" id="9Jb-7L-jah"/>
+                        <outlet property="thirdButton" destination="fZ6-cH-y9m" id="bv9-Cg-LBa"/>
+                        <outlet property="thirdLabel" destination="cI1-ew-M7e" id="kwp-kf-YgF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uL8-n5-SWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
