@@ -14,8 +14,7 @@ class EmotionDiaryViewCntroller: UIViewController {
     ["행복해", "사랑해", "좋아해", "당황해", "속상해",
     "우울해", "심심해", "삐뚤해", "깔끔해"]
     
-    var tapCountArray: [Int] =
-    [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    var tapCountArray: [Int] = Array(repeating: 0 , count: 9)
     
     @IBOutlet weak var firstButton: UIButton!
     @IBOutlet weak var secondButton: UIButton!
@@ -61,34 +60,28 @@ class EmotionDiaryViewCntroller: UIViewController {
         switch sender {
         case firstButton :
             tapCountArray[0] += 1
-            setLabel()
         case secondButton :
             tapCountArray[1] += 1
-            setLabel()
         case thirdButton :
             tapCountArray[2] += 1
-            setLabel()
         case fourthButton :
             tapCountArray[3] += 1
-            setLabel()
         case fifthButton :
             tapCountArray[4] += 1
-            setLabel()
         case sixthButton :
             tapCountArray[5] += 1
-            setLabel()
         case seventhButton :
             tapCountArray[6] += 1
-            setLabel()
         case eighthButton :
             tapCountArray[7] += 1
-            setLabel()
         case ninethButton :
             tapCountArray[8] += 1
-            setLabel()
+            
         default:
             fatalError()
         }
+        setLabel()
+        showAlertController()
         
     }
     
@@ -97,6 +90,10 @@ class EmotionDiaryViewCntroller: UIViewController {
         for (index, item) in labelArray.enumerated() {
             item.text = "\(textArray[index]) \(tapCountArray[index])"
         }
+    }
+    
+    func showAlertController() {
+        
     }
 
 }
