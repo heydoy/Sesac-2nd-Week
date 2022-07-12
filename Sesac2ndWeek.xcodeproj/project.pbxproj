@@ -13,6 +13,7 @@
 		A23BB78F287BA41C006F2DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23BB78E287BA41C006F2DA9 /* Assets.xcassets */; };
 		A23BB792287BA41C006F2DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23BB790287BA41C006F2DA9 /* LaunchScreen.storyboard */; };
 		A23BB79A287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */; };
+		A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E37287D212E00A44EA8 /* SegmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A23BB791287BA41C006F2DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23BB793287BA41C006F2DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewCntroller.swift; sourceTree = "<group>"; };
+		A2505E37287D212E00A44EA8 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A23BB785287BA41A006F2DA9 /* AppDelegate.swift */,
 				A23BB787287BA41A006F2DA9 /* SceneDelegate.swift */,
 				A23BB78B287BA41A006F2DA9 /* Main.storyboard */,
+				A2505E37287D212E00A44EA8 /* SegmentViewController.swift */,
 				A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */,
 				A23BB78E287BA41C006F2DA9 /* Assets.xcassets */,
 				A23BB790287BA41C006F2DA9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				A23BB786287BA41A006F2DA9 /* AppDelegate.swift in Sources */,
 				A23BB79A287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift in Sources */,
 				A23BB788287BA41A006F2DA9 /* SceneDelegate.swift in Sources */,
+				A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

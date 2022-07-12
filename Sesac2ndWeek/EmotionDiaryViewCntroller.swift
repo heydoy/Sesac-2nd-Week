@@ -52,6 +52,10 @@ class EmotionDiaryViewCntroller: UIViewController {
         super.viewDidLoad()
         setLabel()
         listButton.setTitle("", for: .normal)
+        
+        setUserNickname()
+        
+        view.backgroundColor = example().0
     }
     
     // MARK: - Actions
@@ -90,7 +94,29 @@ class EmotionDiaryViewCntroller: UIViewController {
         for (index, item) in labelArray.enumerated() {
             item.text = "\(textArray[index]) \(tapCountArray[index])"
         }
+       let literal = #imageLiteral(resourceName: "sesac_slime9")
     }
+    
+    // 함수 반환값 테스트
+    func setUserNickname() -> String{
+        let nickname = ["고래밥", "칙촉", "시크릿"]
+        
+        //labelArray[0].text = nickname.randomElement()
+        
+        return nickname.randomElement() ?? ""
+        
+    }
+    
+    // 배경색, 레이블, 이미지
+    func example() -> (UIColor, String, String) {
+        let color: [UIColor] = [.yellow, .red, .blue]
+        let image: [String] = ["sesac_slime6", "sesac_slime7", "sesac_slime8"]
+        
+        return (color.randomElement()!, image.randomElement()!,"닉네임" )
+        
+    }
+    
+    
     
     func showAlertController() {
         // 1. 흰 바탕 : UIAlertController
@@ -99,14 +125,15 @@ class EmotionDiaryViewCntroller: UIViewController {
         // 2. 버튼 만들기 : UIAlertAction
         // 핸들러는 기능을 연결하는 역할. Closure
         let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
-        let cancel = UIAlertAction(title: "취소", style: .destructive, handler: nil)
+        let cancel = UIAlertAction(title: "취소", style: .cancel, handler: nil)
         let web = UIAlertAction(title: "복사", style: .default, handler: nil)
         
         // 3. 바탕에 버튼 붙이기
         // 버튼은 추가한 순서대로 붙는다.
+        alert.addAction(cancel)
         alert.addAction(ok)
         alert.addAction(web)
-        alert.addAction(cancel)
+        
         
         // 4. 화면에 띄우기
         present(alert, animated: true, completion: nil)
