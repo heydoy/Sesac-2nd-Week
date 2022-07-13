@@ -6,7 +6,7 @@
 //
 
 import UIKit
-enum emotion: Int {
+enum emotion: Int, CaseIterable {
     case happy = 0
     case like = 1
     case love = 2
@@ -16,6 +16,20 @@ enum emotion: Int {
     case frustrate = 6
     case dull = 7
     case quiet = 8
+    
+    func showText() -> String {
+        switch self {
+        case .happy: return "행복해"
+        case .like: return "좋아해"
+        case .love: return "사랑해"
+        case .depress: return "우울해"
+        case .boring: return "지루해"
+        case .tired: return "피곤해"
+        case .frustrate: return "속상해"
+        case .dull: return "그냥그래"
+        case .quiet: return "조용해"
+        }
+    }
 }
 
 
@@ -86,6 +100,7 @@ class NewEmotionDiaryViewController: UIViewController {
         switch sender.tag {
         case emotion.happy.rawValue :
             emotionCountArray[sender.tag] += 1
+            print(emotion.happy.showText())
             
         case emotion.like.rawValue :
             emotionCountArray[sender.tag] += 1
@@ -114,7 +129,8 @@ class NewEmotionDiaryViewController: UIViewController {
         default:
             fatalError()
         }
-        
+        //이거 하나만 해도 되지만..
+        //emotionCountArray[sender.tag] += 1
         labelArray[sender.tag].text = setButtonTitle(sender.tag)
     }
     
