@@ -15,6 +15,7 @@
 		A23BB79A287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */; };
 		A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E37287D212E00A44EA8 /* SegmentViewController.swift */; };
 		A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */; };
+		A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewCntroller.swift; sourceTree = "<group>"; };
 		A2505E37287D212E00A44EA8 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmotionDiaryViewController.swift; sourceTree = "<group>"; };
+		A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A23BB785287BA41A006F2DA9 /* AppDelegate.swift */,
 				A23BB787287BA41A006F2DA9 /* SceneDelegate.swift */,
 				A23BB78B287BA41A006F2DA9 /* Main.storyboard */,
+				A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */,
 				A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */,
 				A2505E37287D212E00A44EA8 /* SegmentViewController.swift */,
 				A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */,
@@ -149,6 +152,7 @@
 				A23BB788287BA41A006F2DA9 /* SceneDelegate.swift in Sources */,
 				A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */,
 				A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */,
+				A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
