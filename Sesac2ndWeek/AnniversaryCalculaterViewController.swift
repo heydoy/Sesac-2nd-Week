@@ -58,9 +58,12 @@ class AnniversaryCalculaterViewController: UIViewController {
     }
     
     
-    func dateFormatStyle(_ date: Date) {
+    func dateFormatStyle(_ date: Date) -> String {
+        let locale = Locale(identifier: "ko-KR")
+        let result = date.formatted(.dateTime.locale(locale).day().month(.twoDigits).year())
         
-        let result = date.formatted()
+        return result
+        
         
     }
 
