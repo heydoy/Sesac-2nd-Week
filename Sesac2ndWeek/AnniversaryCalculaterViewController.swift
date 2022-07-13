@@ -66,6 +66,16 @@ class AnniversaryCalculaterViewController: UIViewController {
         
         
     }
+    
+    func dateFomatterStyle(_ date: Date) -> String {
+        let myDateFormatter = DateFormatter()
+        myDateFormatter.dateFormat = "yyyy년 M월 d일"
+        myDateFormatter.locale = Locale(identifier:"ko_KR")
+        let convertStr = myDateFormatter.string(from: date)
+        
+        return convertStr
+
+    }
 
 
 }
