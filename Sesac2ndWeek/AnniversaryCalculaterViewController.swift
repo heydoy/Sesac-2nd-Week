@@ -65,18 +65,10 @@ class AnniversaryCalculaterViewController: UIViewController {
         
         print(sender.date)
         
-        let pickedDate = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
-        
-        let anniversary = Calendar.current.dateComponents([.year, .month, .day], from: Date())
-        
-        if pickedDate.year == anniversary.year && pickedDate.month == anniversary.month && pickedDate.day == anniversary.day {
-            print("0")
-        } else {
-            let count = 0
-            
-        }
 
-
+        
+        setLabelWhenValueChanged(stringToDate(),pickedDate: sender.date)
+        
         
     }
     
@@ -89,6 +81,40 @@ class AnniversaryCalculaterViewController: UIViewController {
             $0.layer.cornerRadius = 20
             $0.clipsToBounds = true
         }
+    }
+    
+    func stringToDate() -> [Date] {
+        var datetimeArray = [Date]()
+        
+        let formatter = DateFormatter()
+        let string = "yyyy년 M월 d일"
+        formatter.dateFormat = string
+        formatter.locale = Locale(identifier: "ko")
+        
+        for i in 0..<dateLabelArray.count {
+            guard let temp = formatter.date(from: dateLabelArray[i].text ?? "") else { return [Date]()  }
+            datetimeArray.append(temp)
+        }
+        
+        return datetimeArray
+    }
+    
+    func setLabelWhenValueChanged(_ dateTimeArray: [Date], pickedDate: Date ) {
+        
+        
+        for i in 0..<dateTimeArray.count {
+            
+            let countTime = Int(pickedDate.timeIntervalSince(dateTimeArray[i]))
+            
+            if countTime > 0 {
+            countLabelArray[i].text = "D+\(countTime/86400)"
+            } else {
+                countLabelArray[i].text = "D\(countTime/86400)"
+            }
+        
+        
+        }
+        
     }
     
     

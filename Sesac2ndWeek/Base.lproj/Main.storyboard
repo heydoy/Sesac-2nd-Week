@@ -819,9 +819,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4U8-wb-sjj">
-                                        <rect key="frame" x="77.5" y="90.5" width="62" height="36"/>
-                                        <string key="text">2021년
-10월 13일</string>
+                                        <rect key="frame" x="84.5" y="90.5" width="48" height="36"/>
+                                        <string key="text">2019년
+7월 6일</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -835,17 +835,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCH-uh-COZ">
-                                        <rect key="frame" x="77.5" y="287.5" width="62" height="36"/>
-                                        <string key="text">2021년
-10월 13일</string>
+                                        <rect key="frame" x="81" y="287.5" width="55.5" height="36"/>
+                                        <string key="text">2015년
+4월 16일</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d46-ei-ZaU">
-                                        <rect key="frame" x="274.5" y="287.5" width="62" height="36"/>
-                                        <string key="text">2021년
-10월 13일</string>
+                                        <rect key="frame" x="275" y="287.5" width="61.5" height="36"/>
+                                        <string key="text">2020년
+11월 24일</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
