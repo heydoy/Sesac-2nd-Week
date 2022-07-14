@@ -66,8 +66,11 @@ class AnniversaryCalculaterViewController: UIViewController {
         print(sender.date)
         
 
+        // 이미 라벨에 있는 날짜와 픽커날짜 차이 보여주기
+        //setLabelWhenValueChanged(stringToDate(),pickedDate: sender.date)
         
-        setLabelWhenValueChanged(stringToDate(),pickedDate: sender.date)
+        // 100일 200일 계산기
+        showEvery100Days(pickedDate: sender.date)
         
         
     }
@@ -114,6 +117,31 @@ class AnniversaryCalculaterViewController: UIViewController {
         
         
         }
+        
+    }
+    
+    
+    func showEvery100Days(pickedDate: Date) {
+        for i in 0..<countLabelArray.count {
+            countLabelArray[i].text = "D+\(100*(i+1))"
+        }
+        
+        
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy년 m월 d일"
+        
+        
+        
+        for i in 0..<dateLabelArray.count {
+            let anniversary = Calendar.current.date(byAdding: .day, value: 100*(i+1), to: pickedDate)!
+            
+            let convertStr = dateFormatter.string(from: anniversary)
+            
+            dateLabelArray[i].text = convertStr
+            
+        }
+        
         
     }
     
