@@ -50,6 +50,7 @@ class AnniversaryCalculaterViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var datePicker: UIDatePicker!
     
     
     
@@ -58,6 +59,7 @@ class AnniversaryCalculaterViewController: UIViewController {
         super.viewDidLoad()
         
         setAttribute()
+        showEvery100Days(pickedDate: Date())
     }
     // MARK: - Actions
     
@@ -104,7 +106,6 @@ class AnniversaryCalculaterViewController: UIViewController {
     
     func setLabelWhenValueChanged(_ dateTimeArray: [Date], pickedDate: Date ) {
         
-        
         for i in 0..<dateTimeArray.count {
             
             let countTime = Int(pickedDate.timeIntervalSince(dateTimeArray[i]))
@@ -129,16 +130,24 @@ class AnniversaryCalculaterViewController: UIViewController {
         
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy년 m월 d일"
-        
+        dateFormatter.dateFormat = "yyyy년 M월 d일"
+ 
+
         
         
         for i in 0..<dateLabelArray.count {
-            let anniversary = Calendar.current.date(byAdding: .day, value: 100*(i+1), to: pickedDate)!
             
-            let convertStr = dateFormatter.string(from: anniversary)
+            let adding = (i+1)*100
             
-            dateLabelArray[i].text = convertStr
+            let anniversary = Calendar.current.date(byAdding: .day, value: adding, to: pickedDate)!
+            
+            print(anniversary)
+          
+            let result = dateFormatter.string(from: anniversary)
+            
+            print(result)
+            
+            dateLabelArray[i].text = result
             
         }
         

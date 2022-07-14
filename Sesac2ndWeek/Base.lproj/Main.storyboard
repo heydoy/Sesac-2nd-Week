@@ -906,6 +906,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="datePicker" destination="KKo-Ev-qlq" id="Le6-4U-09A"/>
                         <outlet property="firstAnniversaryDate" destination="4U8-wb-sjj" id="ccu-aE-LdA"/>
                         <outlet property="firstCountLabel" destination="0JR-Lt-0lr" id="PKP-hY-b5x"/>
                         <outlet property="firstImageView" destination="pKN-9z-4zZ" id="Tom-v6-Bqe"/>
