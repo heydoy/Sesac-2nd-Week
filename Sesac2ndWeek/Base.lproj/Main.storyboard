@@ -697,9 +697,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mV4-PF-Ovb">
+                                <rect key="frame" x="20" y="468" width="177" height="177"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mV4-PF-Ovb" secondAttribute="height" multiplier="1:1" id="mp1-ER-6Yq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGk-Fh-r7S">
+                                <rect key="frame" x="217" y="468" width="177" height="177"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aGk-Fh-r7S" secondAttribute="height" multiplier="1:1" id="8lc-hO-Ip3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tie-1k-CDM">
+                                <rect key="frame" x="20" y="665" width="177" height="177"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tie-1k-CDM" secondAttribute="height" multiplier="1:1" id="aPT-HZ-9Jc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g42-QI-rpx">
+                                <rect key="frame" x="217" y="665" width="177" height="177"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g42-QI-rpx" secondAttribute="height" multiplier="1:1" id="mxs-Ed-wIA"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JI8-lh-aMj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mV4-PF-Ovb" firstAttribute="leading" secondItem="JI8-lh-aMj" secondAttribute="leading" constant="20" id="3J4-qY-fFb"/>
+                            <constraint firstItem="tie-1k-CDM" firstAttribute="width" secondItem="mV4-PF-Ovb" secondAttribute="width" id="6SY-qR-3Kl"/>
+                            <constraint firstItem="JI8-lh-aMj" firstAttribute="bottom" secondItem="g42-QI-rpx" secondAttribute="bottom" constant="20" id="CSd-wu-gbR"/>
+                            <constraint firstItem="JI8-lh-aMj" firstAttribute="bottom" secondItem="tie-1k-CDM" secondAttribute="bottom" constant="20" id="DZx-Tb-Vb3"/>
+                            <constraint firstItem="JI8-lh-aMj" firstAttribute="trailing" secondItem="g42-QI-rpx" secondAttribute="trailing" constant="20" id="KJq-Zf-KcR"/>
+                            <constraint firstItem="aGk-Fh-r7S" firstAttribute="leading" secondItem="mV4-PF-Ovb" secondAttribute="trailing" constant="20" id="PTE-9X-K3a"/>
+                            <constraint firstItem="aGk-Fh-r7S" firstAttribute="width" secondItem="mV4-PF-Ovb" secondAttribute="width" id="UgF-Dw-ar4"/>
+                            <constraint firstItem="g42-QI-rpx" firstAttribute="top" secondItem="aGk-Fh-r7S" secondAttribute="bottom" constant="20" id="bl8-2h-xy3"/>
+                            <constraint firstItem="tie-1k-CDM" firstAttribute="top" secondItem="mV4-PF-Ovb" secondAttribute="bottom" constant="20" id="dqA-ea-ChF"/>
+                            <constraint firstItem="g42-QI-rpx" firstAttribute="width" secondItem="mV4-PF-Ovb" secondAttribute="width" id="eOM-JH-9ZM"/>
+                            <constraint firstItem="g42-QI-rpx" firstAttribute="leading" secondItem="tie-1k-CDM" secondAttribute="trailing" constant="20" id="gwb-N9-khx"/>
+                            <constraint firstItem="JI8-lh-aMj" firstAttribute="trailing" secondItem="aGk-Fh-r7S" secondAttribute="trailing" constant="20" id="mzt-S2-J9v"/>
+                            <constraint firstItem="tie-1k-CDM" firstAttribute="leading" secondItem="JI8-lh-aMj" secondAttribute="leading" constant="20" id="vEc-sh-xAb"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="osF-08-nir" id="Bi5-gd-2Y4"/>
@@ -720,6 +763,9 @@
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="KKo-Ev-qlq">
                                 <rect key="frame" x="0.0" y="98" width="414" height="313.5"/>
+                                <connections>
+                                    <action selector="didDatePickerValueChanged:" destination="WjA-zG-rdT" eventType="valueChanged" id="8xH-Pq-zfl"/>
+                                </connections>
                             </datePicker>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ky-PP-IQS">
                                 <rect key="frame" x="0.0" y="460" width="414" height="414"/>
@@ -893,6 +939,9 @@
         <image name="sesac_slime9" width="278" height="258"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -27,11 +27,27 @@ class AnniversaryCalculaterViewController: UIViewController {
     @IBOutlet weak var thirdCountLabel: UILabel!
     @IBOutlet weak var fourthCountLabel: UILabel!
     
+    var countLabelArray: [UILabel] {
+        [ firstCountLabel,
+          secondCountLabel,
+          thirdCountLabel,
+          fourthCountLabel
+        ]
+    }
+    
+    
     @IBOutlet weak var firstAnniversaryDate: UILabel!
     @IBOutlet weak var secondAnniversaryDate: UILabel!
     @IBOutlet weak var thirdAnniversaryDate: UILabel!
     @IBOutlet weak var fourthAnniversaryDate: UILabel!
     
+    
+    var dateLabelArray: [UILabel] {
+        [ firstAnniversaryDate,
+          secondAnniversaryDate,
+          thirdAnniversaryDate,
+          fourthAnniversaryDate]
+    }
     
     
     
@@ -45,6 +61,24 @@ class AnniversaryCalculaterViewController: UIViewController {
     }
     // MARK: - Actions
     
+    @IBAction func didDatePickerValueChanged(_ sender: UIDatePicker) {
+        
+        print(sender.date)
+        
+        let pickedDate = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
+        
+        let anniversary = Calendar.current.dateComponents([.year, .month, .day], from: Date())
+        
+        if pickedDate.year == anniversary.year && pickedDate.month == anniversary.month && pickedDate.day == anniversary.day {
+            print("0")
+        } else {
+            let count = 0
+            
+        }
+
+
+        
+    }
     
     
     

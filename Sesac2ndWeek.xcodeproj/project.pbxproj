@@ -13,12 +13,21 @@
 		A23BB78F287BA41C006F2DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23BB78E287BA41C006F2DA9 /* Assets.xcassets */; };
 		A23BB792287BA41C006F2DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23BB790287BA41C006F2DA9 /* LaunchScreen.storyboard */; };
 		A23BB79A287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */; };
+		A243F0D3287FA68200E46AE4 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A243F0D2287FA68200E46AE4 /* Setting.storyboard */; };
+		A243F0D5287FA82800E46AE4 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A243F0D4287FA82800E46AE4 /* Search.storyboard */; };
+		A243F102287FAED800E46AE4 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = A243F101287FAED800E46AE4 /* SideMenu */; };
+		A243F105287FAF3800E46AE4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = A243F104287FAF3800E46AE4 /* FSCalendar */; };
 		A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E37287D212E00A44EA8 /* SegmentViewController.swift */; };
 		A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */; };
 		A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */; };
+		A2FD6449287FC2CE00A0D960 /* DateFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */; };
+		D67F79A6E444562FD0CFAF33 /* Pods_Sesac2ndWeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC4E9B404638A293DE724B2 /* Pods_Sesac2ndWeek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FC4E9B404638A293DE724B2 /* Pods_Sesac2ndWeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sesac2ndWeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41026CE280C7E878BE511077 /* Pods-Sesac2ndWeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sesac2ndWeek.debug.xcconfig"; path = "Target Support Files/Pods-Sesac2ndWeek/Pods-Sesac2ndWeek.debug.xcconfig"; sourceTree = "<group>"; };
+		742CD529FA84A7060DA229C8 /* Pods-Sesac2ndWeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sesac2ndWeek.release.xcconfig"; path = "Target Support Files/Pods-Sesac2ndWeek/Pods-Sesac2ndWeek.release.xcconfig"; sourceTree = "<group>"; };
 		A23BB782287BA41A006F2DA9 /* Sesac2ndWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesac2ndWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23BB785287BA41A006F2DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A23BB787287BA41A006F2DA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +36,12 @@
 		A23BB791287BA41C006F2DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23BB793287BA41C006F2DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23BB799287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewCntroller.swift; sourceTree = "<group>"; };
+		A243F0D2287FA68200E46AE4 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		A243F0D4287FA82800E46AE4 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		A2505E37287D212E00A44EA8 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculaterViewController.swift; sourceTree = "<group>"; };
+		A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A243F102287FAED800E46AE4 /* SideMenu in Frameworks */,
+				A243F105287FAF3800E46AE4 /* FSCalendar in Frameworks */,
+				D67F79A6E444562FD0CFAF33 /* Pods_Sesac2ndWeek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192D4E6B1C32AFBDEE98F18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FC4E9B404638A293DE724B2 /* Pods_Sesac2ndWeek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A23BB779287BA41A006F2DA9 = {
 			isa = PBXGroup;
 			children = (
 				A23BB784287BA41A006F2DA9 /* Sesac2ndWeek */,
 				A23BB783287BA41A006F2DA9 /* Products */,
+				B629A78DAA764D0B35E212FB /* Pods */,
+				192D4E6B1C32AFBDEE98F18B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +90,9 @@
 				A23BB785287BA41A006F2DA9 /* AppDelegate.swift */,
 				A23BB787287BA41A006F2DA9 /* SceneDelegate.swift */,
 				A23BB78B287BA41A006F2DA9 /* Main.storyboard */,
+				A243F0D2287FA68200E46AE4 /* Setting.storyboard */,
+				A243F0D4287FA82800E46AE4 /* Search.storyboard */,
+				A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */,
 				A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */,
 				A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */,
 				A2505E37287D212E00A44EA8 /* SegmentViewController.swift */,
@@ -76,6 +104,15 @@
 			path = Sesac2ndWeek;
 			sourceTree = "<group>";
 		};
+		B629A78DAA764D0B35E212FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41026CE280C7E878BE511077 /* Pods-Sesac2ndWeek.debug.xcconfig */,
+				742CD529FA84A7060DA229C8 /* Pods-Sesac2ndWeek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +120,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A23BB796287BA41C006F2DA9 /* Build configuration list for PBXNativeTarget "Sesac2ndWeek" */;
 			buildPhases = (
+				1EE9371ADE6E12A018B951E8 /* [CP] Check Pods Manifest.lock */,
 				A23BB77E287BA41A006F2DA9 /* Sources */,
 				A23BB77F287BA41A006F2DA9 /* Frameworks */,
 				A23BB780287BA41A006F2DA9 /* Resources */,
+				7A87FEA6061E1D2E84CC9462 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Sesac2ndWeek;
+			packageProductDependencies = (
+				A243F101287FAED800E46AE4 /* SideMenu */,
+				A243F104287FAF3800E46AE4 /* FSCalendar */,
+			);
 			productName = Sesac2ndWeek;
 			productReference = A23BB782287BA41A006F2DA9 /* Sesac2ndWeek.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +163,10 @@
 				Base,
 			);
 			mainGroup = A23BB779287BA41A006F2DA9;
+			packageReferences = (
+				A243F100287FAED800E46AE4 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				A243F103287FAF3800E46AE4 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = A23BB783287BA41A006F2DA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,10 +184,54 @@
 				A23BB792287BA41C006F2DA9 /* LaunchScreen.storyboard in Resources */,
 				A23BB78F287BA41C006F2DA9 /* Assets.xcassets in Resources */,
 				A23BB78D287BA41A006F2DA9 /* Main.storyboard in Resources */,
+				A243F0D3287FA68200E46AE4 /* Setting.storyboard in Resources */,
+				A243F0D5287FA82800E46AE4 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE9371ADE6E12A018B951E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sesac2ndWeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A87FEA6061E1D2E84CC9462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sesac2ndWeek/Pods-Sesac2ndWeek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sesac2ndWeek/Pods-Sesac2ndWeek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sesac2ndWeek/Pods-Sesac2ndWeek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A23BB77E287BA41A006F2DA9 /* Sources */ = {
@@ -153,6 +244,7 @@
 				A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */,
 				A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */,
 				A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */,
+				A2FD6449287FC2CE00A0D960 /* DateFormatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +386,7 @@
 		};
 		A23BB797287BA41C006F2DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41026CE280C7E878BE511077 /* Pods-Sesac2ndWeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +416,7 @@
 		};
 		A23BB798287BA41C006F2DA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742CD529FA84A7060DA229C8 /* Pods-Sesac2ndWeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,6 +466,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A243F100287FAED800E46AE4 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		A243F103287FAF3800E46AE4 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A243F101287FAED800E46AE4 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A243F100287FAED800E46AE4 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		A243F104287FAF3800E46AE4 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A243F103287FAF3800E46AE4 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A23BB77A287BA41A006F2DA9 /* Project object */;
 }
