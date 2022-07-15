@@ -19,6 +19,9 @@
 		A243F105287FAF3800E46AE4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = A243F104287FAF3800E46AE4 /* FSCalendar */; };
 		A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E37287D212E00A44EA8 /* SegmentViewController.swift */; };
 		A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */; };
+		A27ADFCC2880E85C004798D7 /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27ADFCB2880E85C004798D7 /* Transition.storyboard */; };
+		A27ADFCE2880EFC5004798D7 /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27ADFCD2880EFC5004798D7 /* TransitionFirstViewController.swift */; };
+		A27ADFD02880FDFE004798D7 /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27ADFCF2880FDFE004798D7 /* TransitionSecondViewController.swift */; };
 		A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */; };
 		A2FD6449287FC2CE00A0D960 /* DateFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */; };
 		D67F79A6E444562FD0CFAF33 /* Pods_Sesac2ndWeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC4E9B404638A293DE724B2 /* Pods_Sesac2ndWeek.framework */; };
@@ -40,6 +43,9 @@
 		A243F0D4287FA82800E46AE4 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		A2505E37287D212E00A44EA8 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmotionDiaryViewController.swift; sourceTree = "<group>"; };
+		A27ADFCB2880E85C004798D7 /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
+		A27ADFCD2880EFC5004798D7 /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		A27ADFCF2880FDFE004798D7 /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
 		A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculaterViewController.swift; sourceTree = "<group>"; };
 		A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +98,9 @@
 				A23BB78B287BA41A006F2DA9 /* Main.storyboard */,
 				A243F0D2287FA68200E46AE4 /* Setting.storyboard */,
 				A243F0D4287FA82800E46AE4 /* Search.storyboard */,
+				A27ADFCB2880E85C004798D7 /* Transition.storyboard */,
+				A27ADFCF2880FDFE004798D7 /* TransitionSecondViewController.swift */,
+				A27ADFCD2880EFC5004798D7 /* TransitionFirstViewController.swift */,
 				A2FD6448287FC2CE00A0D960 /* DateFormatViewController.swift */,
 				A2F3E1C5287EBD22007D806B /* AnniversaryCalculaterViewController.swift */,
 				A2505E39287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift */,
@@ -182,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23BB792287BA41C006F2DA9 /* LaunchScreen.storyboard in Resources */,
+				A27ADFCC2880E85C004798D7 /* Transition.storyboard in Resources */,
 				A23BB78F287BA41C006F2DA9 /* Assets.xcassets in Resources */,
 				A23BB78D287BA41A006F2DA9 /* Main.storyboard in Resources */,
 				A243F0D3287FA68200E46AE4 /* Setting.storyboard in Resources */,
@@ -238,11 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27ADFCE2880EFC5004798D7 /* TransitionFirstViewController.swift in Sources */,
 				A23BB786287BA41A006F2DA9 /* AppDelegate.swift in Sources */,
 				A23BB79A287C3D64006F2DA9 /* EmotionDiaryViewCntroller.swift in Sources */,
 				A23BB788287BA41A006F2DA9 /* SceneDelegate.swift in Sources */,
 				A2505E3A287D3B8600A44EA8 /* NewEmotionDiaryViewController.swift in Sources */,
 				A2505E38287D212E00A44EA8 /* SegmentViewController.swift in Sources */,
+				A27ADFD02880FDFE004798D7 /* TransitionSecondViewController.swift in Sources */,
 				A2F3E1C6287EBD23007D806B /* AnniversaryCalculaterViewController.swift in Sources */,
 				A2FD6449287FC2CE00A0D960 /* DateFormatViewController.swift in Sources */,
 			);
@@ -397,7 +409,7 @@
 				INFOPLIST_FILE = Sesac2ndWeek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Transition;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -427,7 +439,7 @@
 				INFOPLIST_FILE = Sesac2ndWeek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Transition;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
